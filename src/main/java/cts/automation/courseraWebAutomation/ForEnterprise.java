@@ -94,7 +94,8 @@ public class ForEnterprise
 	    //Clicking the element to start filling up the form 
 	    driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS) ;
 	    Thread.sleep(2000);
-	    driver.findElement(By.cssSelector("a.cta-button:nth-child(3)"));
+	    //driver.findElement(By.cssSelector("a.cta-button:nth-child(3)"));
+		driver.findElement(By.cssSelector("a.cta-button:nth-child(3)")).click();
         //driver.findElement(Started).click();
         
         //Inputting the details
