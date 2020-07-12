@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test For Firefox">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class
+				name="cts.automation.courseraWebAutomation.execute.TestCases" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="Test For Chrome">
+		<parameter name="browserName" value="chrome" />
+
+		<classes>
+			<class
+				name="cts.automation.courseraWebAutomation.execute.TestCases" />
+		</classes>
+
+	</test> <!-- Test -->
+
+	<!-- <test name="Test For Internet Explorer"> <parameter name="browserName" 
+		value="InternetExplorer" /> <classes> <class name="cts.automation.courseraWebAutomation.execute.TestCases" 
+		/> </classes> </test> -->
+
+
+</suite> <!-- Suite --> 
